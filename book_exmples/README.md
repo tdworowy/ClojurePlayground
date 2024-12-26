@@ -1,0 +1,1 @@
+Examples from book: [Clojure for the Brave and True: Learn the Ultimate Language and Become a Better Programmer](https://www.amazon.com/Clojure-Brave-True-Ultimate-Programmer/dp/1593275919)
