@@ -1,6 +1,6 @@
-(ns hoobit.core-test
+(ns hobbit.core-test
   (:require [clojure.test :refer :all]
-            [hoobit.core :refer :all]))
+            [hobbit.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
