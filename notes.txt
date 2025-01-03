@@ -4,6 +4,10 @@ lein uberjar <- build jar
 java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar
 
 lein repl
+___________
+repl
+:reload-all
+
 
 ____________
 emacs
@@ -14,3 +18,7 @@ M-S-( - paredit wrap-round
 C--> (arrow) - slurp
 C-M-f - to the closing parenthesis
 C-M-b - to the opening parenthesis
+C-c switch to clojure buffer
+C-x o switch window
+
+
