@@ -7,8 +7,6 @@ lein repl
 ___________
 repl
 :reload-all
-
-
 ____________
 emacs
 
