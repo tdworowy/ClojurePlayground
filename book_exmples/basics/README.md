@@ -1,4 +1,4 @@
-# clojure-noob
+# basics
 
 FIXME: description
 
@@ -10,7 +10,7 @@ Download from http://example.com/FIXME.
 
 FIXME: explanation
 
-    $ java -jar clojure-noob-0.1.0-standalone.jar [args]
+    $ java -jar basics-0.1.0-standalone.jar [args]
 
 ## Options
 
@@ -30,7 +30,7 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2024 FIXME
+Copyright © 2025 FIXME
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
