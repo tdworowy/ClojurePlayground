@@ -32,4 +32,18 @@
 (defn glitter-filter [minimum-glitter records]
   (filter #(>= (:glitter-index %) minimum-glitter) records))
 
+(defn glitter-filter-names [minimum-glitter records]
+  (map :name (filter #(>= (:glitter-index %) minimum-glitter) records)))
+
+(defn append-to-map [suspect list-of-maps]
+  (cons suspect list-of-maps))
+
+(defn validate? [record & keywords]
+  (every? #(contains? record %) keywords))
+
 (println (glitter-filter 3 (mapify (parse (slurp filename)))))
+(println (glitter-filter-names 3 (mapify (parse (slurp filename)))))
+
+(println (append-to-map {:name "Test Name" :glitter-index 2} (mapify (parse (slurp filename)))))
+(println (validate?  {:name "test" :glitter-index 2} :name :glitter-index))
+(println (validate? {:name "test"}  :name :glitter-index))
