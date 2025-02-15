@@ -1,3 +1,4 @@
+lein new app <app_name>
 lein run
 lein uberjar <- build jar
 
