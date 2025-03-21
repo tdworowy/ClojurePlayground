@@ -20,4 +20,8 @@ C-M-b - to the opening parenthesis
 C-c switch to clojure buffer
 C-x o switch window
 
+______________
+lein namespaces
 
+(in-ns 'your.namespace.here)
+(require ['your.namespace.here as name])
